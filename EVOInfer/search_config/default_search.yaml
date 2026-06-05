@@ -1,0 +1,31 @@
+# Default EVO cache schedule search settings.
+
+search:
+  k_pairs: 192
+  population_size: 50
+  elite_size: 10
+  mutation_rate: 0.1
+  crossover_rate: 0.8
+  tournament_size: 3
+  max_generations: 100
+  num_blocks: 24
+  num_steps: 100
+
+initialization:
+  strategy: importance
+  random_fraction: 0.30
+  min_pairs_per_block: 4
+  importance_gamma: 1.0
+  importance_epsilon: 0.005
+
+evaluation:
+  eval_seeds:
+    - 10000
+    - 20000
+    - 30000
+  n_test: 50
+  num_inference_steps: 100
+
+outputs:
+  search_root: results/evo_search
+  eval_root: results/evo_eval
