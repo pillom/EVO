@@ -2,7 +2,7 @@
 
 ### Training-Free Global Cache Scheduling via Evolutionary Search
 
-[Anonymous Code](https://anonymous.4open.science/r/EVO/)
+
 
 ![EVO Framework](figure/structure_picture.png)
 
